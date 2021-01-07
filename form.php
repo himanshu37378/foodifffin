@@ -13,11 +13,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <title>ORDER FOOD</title>
     
-   <!-- <script>
+    <script>
 	function submitpage(){
-		window.location.href= "https://gogle.com/";
+		window.location.href= "/submit.php";
 	}
-	</script>-->
+	</script>
 </head>
 <body>
  
@@ -133,7 +133,7 @@
 		</div>
 		<div class="col span-2-of-3">
 		
-		<input type="submit" value="Order Now" name="submit">
+		<input type="submit" value="Order Now" name="submit" onclick="submitpage()">
 			
 				</div>
 		</div>

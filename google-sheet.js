@@ -32,7 +32,7 @@ $("#order-form").submit(function(event){
     // Callback handler that will be called on success
     request.done(function (response, textStatus, jqXHR){
         // Log a message to the console
-		window.location('https://google.com')
+		
         console.log("Hooray, it worked!");
         console.log(response);
         console.log(textStatus);
