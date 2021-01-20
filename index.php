@@ -37,7 +37,7 @@
        <div class="hero-text-box">
         <h1>Goodbye junk food.<br> Hello super healthy meals.</h1>
         <a class="btn btn-full" href="form.php" target="_blank">I’m hungry</a>
-        <a class="btn btn-ghost" href="#meals">Show me more</a>
+        <a class="btn btn-full" href="#meals">Show me more</a>
         </div>
     </header>
        
@@ -367,7 +367,7 @@
             </div>
             
              <div class="u-center-text u-margin-top-big-8">
-               <a href="form.php" target="_blank" class="btn btn-full">ORDER NOW</a>
+               <a href="form.php" target="_blank" class="btn btn-full" name="month">ORDER NOW</a>
             </div>
             
             

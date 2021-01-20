@@ -15,10 +15,17 @@
 	<body>
       <section class="submit">
 
-      	<p class="orderpl">
-          Your order has been successfully placed.
-			</p>
-		 
+		<div class="row">
+			<div class="col span-1-of-2">
+				<p class="orderpl">
+					your order has been placed successfully🎉
+				</p>
+			</div>
+			<div class="col span-1-of-2">
+			<br><br>
+		<a href="payment.php" class="btn-special--white">PAY NOW &rarr;</a>
+			</div>
+		</div> 
       </section>
       
 	</body>

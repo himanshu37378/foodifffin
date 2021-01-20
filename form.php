@@ -98,7 +98,7 @@
                 </select>
             </div>
             </div>
-            
+
               
             <div class="row">
             <div class="col span-1-of-3">
@@ -111,6 +111,22 @@
             </div>
             </div>
             
+            
+             <div class="row">
+            <div class="col span-1-of-3">
+                <label>Choose a payment method:-</label>
+            
+            </div>
+            <div class="col span-1-of-3">
+               <input type="radio" name="pay" id="online" > Online Payment
+                
+            </div>
+            
+             <div class="col span-1-of-3">
+               <input type="radio" name="pay" id="cash" > Cash On Delivery
+                
+            </div>
+            </div>
             
                          
             <div class="row">

@@ -260,7 +260,7 @@ input[type=submit]:active{
 
 
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -300,6 +300,7 @@ header{
     display: inline-block;
     margin-left: 40px;
     background-color: rgba(0, 0, 0, 0.6);
+	
 }
 
 .formbtm li{
@@ -901,9 +902,7 @@ footer p{
 }
 
 .orderpl{
-	display: inline-block;
-	 position: absolute;
-	margin-left: 22rem;
+    text-transform: uppercase;
 	border-bottom: 3px solid #e67e22;
 	
 }
