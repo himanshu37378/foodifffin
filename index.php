@@ -53,9 +53,9 @@
             <div class="row">
                 <div class="col span-1-of-2">
                     <h3 class="heading-tertiary u-margin-bottom-2">You're going to fall in love with our food</h3>
-                    <p class="paragraph">lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos omnis, a, odio amet, nisi blanditiis perspiciatis est debitis molestiae id laborum officiis neque sed minus molestias dolore, inventore tempora eius.</p>
-                            <h3 class="heading-tertiary u-margin-bottom-2">get top services you never have before</h3>
-                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia earum maiores ipsum est ea aofficiis neque sedamet, nisi blanditiis,!</p>
+                    <p class="paragraph">Foodiffin is a tiffin service that provides a friendly interface through which user can directly select the type of food service they want as per offered by the organization. They can place orders according to their requirements at any time and get their meals ready at their workplace or home. </p>
+                            <h3 class="heading-tertiary u-margin-bottom-2">Get top services you never have before</h3>
+                    <p class="paragraph">Foodiffin provides with the best facilities and an easy to use interface as to give the user all the information ready to serve. This website is going to give all the facilities to the consumers at their place and they don’t need to move to the restaurant to place orders. </p>
                     
                     <a href="#map" class="btn-text">Know more &rarr;</a>
                 </div>
