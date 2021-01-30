@@ -20,7 +20,6 @@
 <body>
 
 
-  
    
     <header>
         <nav>
@@ -452,7 +451,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <!-- Custom Theme JavaScript -->
   <script src='google-sheet.js'></script>
-   
    
     
     </body>

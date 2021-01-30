@@ -254,6 +254,7 @@ input[type=submit]:active{
 }
 
 
+
 /*---------------------------------------------------------------------------------*/
 /*HEADER*/
 /*---------------------------------------------------------------------------------*/
@@ -904,5 +905,16 @@ footer p{
 .orderpl{
     text-transform: uppercase;
 	border-bottom: 3px solid #e67e22;
+
+	
+}
+
+
+
+.urgent{
+	font-size: 40%;
+	font font-weight: 100;
+	color: #e67e22;
+	
 	
 }

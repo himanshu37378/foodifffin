@@ -13,11 +13,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <title>ORDER FOOD</title>
     
+    <style>
+    .boxx{
+        display: none;
+    }
+
+.urgent{
+	font-size: 65%;
+	font font-weight: 300;
+	color: red;
+	
+	
+}
+		
+</style>
+   
+   
     <script>
 	function submitpage(){
 		window.location.href= "/submit.php";
 	}
 	</script>
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('input[type="radio"]').click(function(){
+        var inputValue = $(this).attr("value");
+        var targetBox = $("." + inputValue);
+        $(".boxx").not(targetBox).hide();
+        $(targetBox).show();
+    });
+});
+</script>
+
 </head>
 <body>
  
@@ -41,7 +70,9 @@
     
 	 <section class="section-form" id="form">
     <div class="row">
+       <div class="col span-2-of-2">
         <h2>We're ready to serve you</h2>
+        </div>
         </div>
     <div class="row">
 		<p id="success">
@@ -91,9 +122,9 @@
             </div>
             <div class="col span-2-of-3">
                 <select name="type" id="type">
-                    <option value="Monthly" selected>Monthly</option>
-                    <option value="Weak">Weak</option>
-                    <option value="One">One time</option>
+                    <option value="Monthly" selected>Monthly(1799/-)</option>
+                    <option value="Weak">Weak(489/-)</option>
+                    <option value="One">One time(79/-)</option>
                     
                 </select>
             </div>
@@ -118,17 +149,48 @@
             
             </div>
             <div class="col span-1-of-3">
-               <input type="radio" name="pay" id="online" > Online Payment
+               <input type="radio" name="pay" id="payonline" value="online" selected> Online Payment
                 
             </div>
             
              <div class="col span-1-of-3">
-               <input type="radio" name="pay" id="cash" > Cash On Delivery
+               <input type="radio" name="pay" id="paycash" value="cash"> Cash On Delivery
                 
             </div>
             </div>
             
+			<div class="row">
+			<div class="col span-1-of-3 online boxx">
+				<label for="upid">UPI ID</label>
+
+			</div>
+			<div class="col span-2-of-3 online boxx">
+			   <input type="text" name="upid" id="upid" placeholder="Enter Your UPI ID ">
+
+			</div>
+			</div>
+                     
                          
+              <div class="row">
+              	<div class="col span-1-of-3 online boxx">
+              	<label>Payment options</label>
+              	</div>
+              	<div class="col span-2-of-3 online boxx">
+               <a href="payment.php" target="_top" class="btn-special btn btn-full">Pay now</a>
+              	</div>
+              </div>
+                                
+             <div class="row">
+             	<div class="col span-1-of-3 online boxx">
+             		&nbsp;
+             	</div>
+             	
+             	<div class="col span-2-of-3 online boxx urgent">
+             		Note:-If you have opted for online payment, firstly complete the payment process and then fill the details in the form.
+             	</div>
+             </div>               
+                                 
+                                      
             <div class="row">
             <div class="col span-1-of-3">
                 <label>Your address</label>

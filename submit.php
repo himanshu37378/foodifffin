@@ -14,18 +14,23 @@
 	</head>
 	<body>
       <section class="submit">
-
-		<div class="row">
-			<div class="col span-1-of-2">
-				<p class="orderpl">
-					your order has been placed successfully🎉
-				</p>
-			</div>
-			<div class="col span-1-of-2">
-			<br><br>
-		<a href="payment.php" class="btn-special--white">PAY NOW &rarr;</a>
-			</div>
-		</div> 
+		
+     <div class="row">
+     	<div class="col span-2-of-2">
+     		<h2>
+     		your order has been successfully placed🎉	
+     		</h2>     		
+   	</div>
+     </div>
+     
+     <div class="row">
+     	<div class="col span-2-of-2">
+     		<h2>
+     		 <a href="index.php" class="btn-special btn-special--white">Back to Home Page </a>	
+     		</h2>     		
+   	</div>
+     </div>
+     
       </section>
       
 	</body>
