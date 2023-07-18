@@ -37,7 +37,7 @@
 	
 
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    
+
 <script>
 $(document).ready(function(){
     $('input[type="radio"]').click(function(){
@@ -211,11 +211,15 @@ $(document).ready(function(){
                 <label>&nbsp;</label>
             
 		</div>
-		<div class="col span-2-of-3">
-		
-		<input type="submit" value="Order Now" name="submit" onclick="submitpage()">
-			
-				</div>
+
+		<div class="row">
+     	<div class="col span-2-of-2">
+     		<h2>
+     		 <a href="submit.php" class="btn-special btn-special--white">Submit</a>	
+     		</h2>     		
+   	</div>
+     </div>
+
 		</div>
             
             
